@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Car Dealership</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+	<header>
+		<h1>Car Dealership</h1>
+	</header>
+	<main>
+		<section class="left">
+			<div class="container-max-val">
+				<label for="input-maxval">Maximum Price</label>
+				<input type="number" id="input-maxval" class="input-maxval">
+				<div class="btns-max-all">
+					<button class="btn-maxval-set">Set Max</button>
+					<button class="btn-showall">Show All</button>
+				</div>
+			</div>
+			<hr>
+			<div class="container-add-car">
+				<h3>Add a Car</h3>
+				<label for="input-year">Year</label>
+				<input type="text" id="input-year" class="input-year">
+				<label for="input-make">Make</label>
+				<input type="text" id="input-make" class="input-make">
+				<label for="input-model">Model</label>
+				<input type="text" id="input-model" class="input-model">
+				<label for="input-price">Sales Price</label>
+				<input type="number" id="input-price" class="input-price">
+				<label for="select-color">Color</label>
+				<select name="select-color" id="select-color">
+					<option value="Silver">Silver</option>
+					<option value="Black">Black</option>
+					<option value="White">White</option>
+					<option value="Blue">Blue</option>
+					<option value="Red">Red</option>
+				</select>
+				<button class="btn-add-car">Add</button>
+			</div>
+		</section>
+		<section class="right">
+			<h2 class="heading-for-sale">Cars for Sale</h2>
+			<div class="container-cards">
+			</div>
+		</section>
+	</main>
+	<script src="script.js"></script>
+</body>
+
+</html>
